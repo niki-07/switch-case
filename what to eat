@@ -1,0 +1,22 @@
+//switch case code
+#include<stdio.h>
+void main()
+{
+	int n;
+    printf("\nEnter your choice : ");
+    scanf("%d",&n);
+    switch (n)
+	{
+		case 1: printf("\nFrench fries \nRs 99");
+	            break;
+    	case 2: printf("\nSandwich \nRs 149");
+	            break;
+    	case 3: printf("\nPasta \nRs 179");
+	            break;
+    	case 4: printf("\nBurger \nRs 129");
+	            break;
+    	case 5: printf("\nPizza \nRs 239");
+	            break;
+    	default:printf("\nInvalid choice. Enter again.");
+    }
+}  
